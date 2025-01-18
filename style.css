@@ -33,7 +33,7 @@
 }
 
 label {
-    color: rgb(66, 60, 60);
+    color: rgb(78, 76, 76);
 }
 
 input {
@@ -65,6 +65,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    box-shadow: 3px 4px 10px gray;
+}
+
 button>a {
     color: white;
     text-decoration: none;
@@ -80,4 +84,3 @@ h5>a {
     color: gray;
     text-decoration: none;
 }
-
